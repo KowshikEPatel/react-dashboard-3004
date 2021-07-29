@@ -17,7 +17,7 @@ export default function Topbar() {
                         <input type="text" className="form-control bg-light border-0 small" placeholder="Search for..."
                             aria-label="Search" aria-describedby="basic-addon2"/>
                         <div className="input-group-append">
-                            <button className="btn btn-primary" type="button">
+                            <button className="btn btn-primary" >
                                 <i className="fas fa-search fa-sm"></i>
                             </button>
                         </div>
@@ -38,7 +38,7 @@ export default function Topbar() {
                                     placeholder="Search for..." aria-label="Search"
                                     aria-describedby="basic-addon2"/>
                                 <div className="input-group-append">
-                                    <button className="btn btn-primary" type="button">
+                                    <button className="btn btn-primary" >
                                         <i className="fas fa-search fa-sm"></i>
                                     </button>
                                 </div>
@@ -48,7 +48,7 @@ export default function Topbar() {
                 </li>
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                    <button className="nav-link dropdown-toggle"  id="alertsDropdown" role="button"
+                    <button className="nav-link dropdown-toggle"  id="alertsDropdown" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-bell fa-fw"></i>
                         
@@ -99,7 +99,7 @@ export default function Topbar() {
 
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                    <button className="nav-link dropdown-toggle" id="messagesDropdown" role="button"
+                    <button className="nav-link dropdown-toggle" id="messagesDropdown" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-envelope fa-fw"></i>
                         
@@ -167,7 +167,7 @@ export default function Topbar() {
 
 
                 <li className="nav-item dropdown no-arrow">
-                    <button className="nav-link dropdown-toggle"  id="userDropdown" role="button"
+                    <button className="nav-link dropdown-toggle"  id="userDropdown" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
