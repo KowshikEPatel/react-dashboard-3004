@@ -26,7 +26,7 @@ export default function Topbar() {
 
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item dropdown no-arrow d-sm-none">
-                    <button className="nav-link dropdown-toggle"  id="searchDropdown" role="button"
+                    <button className="nav-link dropdown-toggle"  id="searchDropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-search fa-fw"></i>
                     </button>
