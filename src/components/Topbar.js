@@ -26,10 +26,10 @@ export default function Topbar() {
 
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item dropdown no-arrow d-sm-none">
-                    <a className="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                    <button className="nav-link dropdown-toggle"  id="searchDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-search fa-fw"></i>
-                    </a>
+                    </button>
                     <div className="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
                         aria-labelledby="searchDropdown">
                         <form className="form-inline mr-auto w-100 navbar-search">
@@ -48,19 +48,19 @@ export default function Topbar() {
                 </li>
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                    <a className="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                    <button className="nav-link dropdown-toggle"  id="alertsDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-bell fa-fw"></i>
                         
                         <span className="badge badge-danger badge-counter">3+</span>
-                    </a>
+                    </button>
                 
                     <div className="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                         aria-labelledby="alertsDropdown">
                         <h6 className="dropdown-header">
                             Alerts Center
                         </h6>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        <button className="dropdown-item d-flex align-items-center" >
                             <div className="mr-3">
                                 <div className="icon-circle bg-primary">
                                     <i className="fas fa-file-alt text-white"></i>
@@ -70,8 +70,8 @@ export default function Topbar() {
                                 <div className="small text-gray-500">December 12, 2019</div>
                                 <span className="font-weight-bold">A new monthly report is ready to download!</span>
                             </div>
-                        </a>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        </button>
+                        <button className="dropdown-item d-flex align-items-center" >
                             <div className="mr-3">
                                 <div className="icon-circle bg-success">
                                     <i className="fas fa-donate text-white"></i>
@@ -81,8 +81,8 @@ export default function Topbar() {
                                 <div className="small text-gray-500">December 7, 2019</div>
                                 $290.29 has been deposited into your account!
                             </div>
-                        </a>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        </button>
+                        <button className="dropdown-item d-flex align-items-center" >
                             <div className="mr-3">
                                 <div className="icon-circle bg-warning">
                                     <i className="fas fa-exclamation-triangle text-white"></i>
@@ -92,26 +92,26 @@ export default function Topbar() {
                                 <div className="small text-gray-500">December 2, 2019</div>
                                 Spending Alert: We've noticed unusually high spending for your account.
                             </div>
-                        </a>
-                        <a className="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                        </button>
+                        <button className="dropdown-item text-center small text-gray-500" >Show All Alerts</button>
                     </div>
                 </li>
 
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                    <a className="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                    <button className="nav-link dropdown-toggle" id="messagesDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-envelope fa-fw"></i>
                         
                         <span className="badge badge-danger badge-counter">7</span>
-                    </a>
+                    </button>
                     
                     <div className="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                         aria-labelledby="messagesDropdown">
                         <h6 className="dropdown-header">
                             Message Center
                         </h6>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        <button className="dropdown-item d-flex align-items-center" >
                             <div className="dropdown-list-image mr-3">
                                 <img className="rounded-circle" src="img/undraw_profile_1.svg"
                                     alt="..."/>
@@ -122,8 +122,8 @@ export default function Topbar() {
                                     problem I've been having.</div>
                                 <div className="small text-gray-500">Emily Fowler · 58m</div>
                             </div>
-                        </a>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        </button>
+                        <button className="dropdown-item d-flex align-items-center">
                             <div className="dropdown-list-image mr-3">
                                 <img className="rounded-circle" src="img/undraw_profile_2.svg"
                                     alt="..."/>
@@ -134,8 +134,8 @@ export default function Topbar() {
                                     would you like them sent to you?</div>
                                 <div className="small text-gray-500">Jae Chun · 1d</div>
                             </div>
-                        </a>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        </button>
+                        <button className="dropdown-item d-flex align-items-center" >
                             <div className="dropdown-list-image mr-3">
                                 <img className="rounded-circle" src="img/undraw_profile_3.svg"
                                     alt="..."/>
@@ -146,8 +146,8 @@ export default function Topbar() {
                                     the progress so far, keep up the good work!</div>
                                 <div className="small text-gray-500">Morgan Alvarez · 2d</div>
                             </div>
-                        </a>
-                        <a className="dropdown-item d-flex align-items-center" href="#">
+                        </button>
+                        <button className="dropdown-item d-flex align-items-center" >
                             <div className="dropdown-list-image mr-3">
                                 <img className="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
                                     alt="..."/>
@@ -158,8 +158,8 @@ export default function Topbar() {
                                     told me that people say this to all dogs, even if they aren't good...</div>
                                 <div className="small text-gray-500">Chicken the Dog · 2w</div>
                             </div>
-                        </a>
-                        <a className="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+                        </button>
+                        <button className="dropdown-item text-center small text-gray-500">Read More Messages</button>
                     </div>
                 </li>
 
@@ -167,7 +167,7 @@ export default function Topbar() {
 
 
                 <li className="nav-item dropdown no-arrow">
-                    <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                    <button className="nav-link dropdown-toggle"  id="userDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -200,27 +200,27 @@ export default function Topbar() {
 	                        </g>
                             </g>
                         </svg>
-                    </a>
+                    </button>
                     
                     <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                         aria-labelledby="userDropdown">
-                        <a className="dropdown-item" href="#">
+                        <button className="dropdown-item" >
                             <i className="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                             Profile
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </button>
+                        <button className="dropdown-item" >
                             <i className="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                             Settings
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </button>
+                        <button className="dropdown-item" >
                             <i className="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                             Activity Log
-                        </a>
+                        </button>
                         <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                        <button className="dropdown-item"  data-toggle="modal" data-target="#logoutModal">
                             <i className="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                             Logout
-                        </a>
+                        </button>
                     </div>
                 </li>
 

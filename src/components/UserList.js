@@ -100,7 +100,7 @@ export default function UserList() {
             <>
             <h1 className="h3 mb-0 text-gray-800">User List</h1>
             <p className="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
+                        For more information about DataTables, please visit the <a target="_blank" rel="noreferrer"
                             href="https://datatables.net">official DataTables documentation</a>.</p>
 
                     <Link to="/usercreate">Create user</Link>
