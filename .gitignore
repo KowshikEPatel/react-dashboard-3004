@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/startbootstrap-sb-admin-2-gh-pages
+/public/fontawesome-free
 
 # testing
 /coverage
