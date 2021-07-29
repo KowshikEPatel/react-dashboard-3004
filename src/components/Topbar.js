@@ -48,7 +48,7 @@ export default function Topbar() {
                 </li>
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                    <button className="nav-link dropdown-toggle"  id="alertsDropdown" 
+                    <button className="nav-link dropdown-toggle btn btn-light"  id="alertsDropdown" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-bell fa-fw"></i>
                         
@@ -99,7 +99,7 @@ export default function Topbar() {
 
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                    <button className="nav-link dropdown-toggle" id="messagesDropdown" 
+                    <button className="nav-link dropdown-toggle btn btn-light" id="messagesDropdown" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i className="fas fa-envelope fa-fw"></i>
                         
@@ -167,7 +167,7 @@ export default function Topbar() {
 
 
                 <li className="nav-item dropdown no-arrow">
-                    <button className="nav-link dropdown-toggle"  id="userDropdown" 
+                    <button className="nav-link dropdown-toggle btn btn-light"  id="userDropdown" 
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
